@@ -1,0 +1,262 @@
+body {
+  color: #222;
+  font-family: 'Playfair Display',serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: .015em;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.site-container {
+  margin: 0px auto 0px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ========== */
+/*  NAV BAR   */
+/* ========== */
+
+.site-header {
+  text-align: center;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  position: relative;
+}
+
+.nav-primary {
+  margin: 40px auto 0px;
+  width: 100%;
+  height: 61px;
+}
+
+.genesis-nav-menu {
+  clear: both;
+  line-height: 1;
+  max-width: 950px;
+  width: 90%;
+  margin: 0px auto;
+  position: relative;
+  text-align: right;
+}
+
+.genesis-nav-menu .menu-item {
+  display: inline-block;
+}
+
+.nav-primary .genesis-nav-menu a {
+  font-family: 'Montserrat',sans-serif;
+  display: block;
+  margin: 0px 20px 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 18px;
+  font-weight: 400;
+  color: #222;
+}
+
+.nav-primary .genesis-nav-menu a:hover {
+  color: #dc9073;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* ============ */
+/*  ABOUT PAGE  */
+/* ============ */
+
+/* Bio */
+.biocontainer {
+  position: relative;
+}
+
+.photoCarousel {
+  height: 100vh;
+}
+
+.biotext {
+  font-weight: 300;
+  color: white;
+  left: 10%;
+  top: 10%;
+  width: 800px;
+  font-size: 20px;
+  position: absolute;
+  z-index: 1000;
+}
+img {
+  -webkit-filter: grayscale(50%);
+     -moz-filter: grayscale(50%);
+       -o-filter: grayscale(50%);
+      -ms-filter: grayscale(50%);
+          filter: grayscale(50%); 
+}
+
+/* SKILLS */
+.wrap {
+  width: 950px;
+  margin: 0px auto;
+}
+
+.quote {
+  background: #222;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  letter-spacing: .1em;
+}
+
+.quote .wrap {
+  background: #222;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 20px 90px;
+}
+
+.skills {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.icons {
+  padding-bottom: 10px;
+}
+
+.title {
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-style: italic;
+  color: #dc9073;
+}
+
+.subtitle {
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #dc9073;
+  font-weight: 900;
+}
+
+/* ============ */
+/*  FOOTER      */
+/* ============ */
+
+.footer {
+  text-align: center; 
+  text-transform: uppercase;
+  margin: 0px auto;
+}
+
+.footer .text {
+  display: inline-block;
+  padding: 40px;
+}
+/* ============  */
+/*  APPLICATIONS */
+/* ============  */
+
+.section-4 {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  padding: 120px 0;
+  margin-bottom: 0px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
+  background:  #dc9073;;
+}
+
+.section-4b {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 30px 90px;
+  font-size: 18px;
+}
+
+.section-4.shop .section-4b {
+  position: relative;
+  padding-bottom: 40px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.left-header {
+  top: 30px;
+  left: 40px;
+  position: absolute;
+  display: block;
+}
+.github-button {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
+  margin: 20px 0px 0px 28%;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 25px;
+  font-weight: 600;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  /* position: relative; */
+}
+
+.linkedin-button {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
+  margin: 20px 0px 0px 3%;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 25px;
+  font-weight: 600;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  /* position: relative; */
+}
+
+.aligncenter, img.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foodImage {
+  background-position: center top; 
+  background-image: url(https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=90a4f62a13955fd92b02cb3ae8c31b94&auto=format&fit=crop&w=1958&q=80);
+}
+
+.fashionImage {
+  background-position: center top; 
+  background-image: url(https://images.unsplash.com/photo-1517682165294-35e1ba483543?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7b0ae9c1fd963a117f0c869e69f91c56&auto=format&fit=crop&w=1950&q=80);
+}
+
+.moviesImage {
+  background-position: center top; 
+  background-image: url(https://images.unsplash.com/photo-1530432999454-016a47c78af3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=893d3ea88da5ee2fe9bc2d0c693686d9&auto=format&fit=crop&w=976&q=80);
+}
